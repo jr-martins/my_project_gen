@@ -15,6 +15,8 @@ O projeto é dividido em camadas conforme a arquitetura limpa:
 
 Certifique-se de ter o Flutter instalado em seu ambiente de desenvolvimento. Em seguida, execute os seguintes comandos:
 
+Flutter version 3.16.5
+
 ```bash
 flutter pub get
 flutter run
