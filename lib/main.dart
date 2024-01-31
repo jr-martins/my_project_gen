@@ -7,8 +7,8 @@ import 'app_widget.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   //await Firebase.initializeApp();
-  //FirebaseCoreCrashlytics firebaseCoreCrashlytics = FirebaseCoreCrashlytics();
-  //await firebaseCoreCrashlytics.config();
+  FirebaseCoreCrashlytics firebaseCoreCrashlytics = FirebaseCoreCrashlytics();
+  await firebaseCoreCrashlytics.config();
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
   ]);
