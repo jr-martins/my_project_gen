@@ -11,6 +11,8 @@ void main() async {
   await firebaseCoreCrashlytics.config();
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
+
+    //
   ]);
 
   runApp(const MyApp());
